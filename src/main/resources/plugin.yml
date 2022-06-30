@@ -1,0 +1,9 @@
+name: Playerinfo
+version: '${project.version}'
+main: me.banker.playerinfo.Playerinfo
+api-version: 1.18
+authors: [ Banker ]
+commands:
+  playerinfo:
+    usage: /playerinfo <player>
+    description: Get information about a player (ADMIN ONLY)
